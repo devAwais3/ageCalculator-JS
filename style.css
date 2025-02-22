@@ -12,6 +12,7 @@ body {
     text-align: center;
     color: #b870f6;
 }
+
 .container {
     background: linear-gradient(to right, #2C1445, #4B1D58, #6A1F67);
     padding: 20px;
@@ -19,5 +20,21 @@ body {
     width: 17rem;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.372);
+}
 
+.container button {
+    border: none;
+    background: linear-gradient(to right, #964294, #4B1D58, #3d1b61);
+    padding: 16px 30px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.container button:hover {
+    box-shadow: 0 0 0 4px #2C1445, 0 0 0 8px #b870f6;
 }
